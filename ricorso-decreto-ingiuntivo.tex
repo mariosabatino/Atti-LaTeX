@@ -1,0 +1,98 @@
+\documentclass [12pt]{article}
+\usepackage[italian]{babel}
+\usepackage{lmodern}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{ragged2e}
+\usepackage[a4paper, left=2.8cm, right=5.3cm, top=3.4cm, bottom=2.4cm]{geometry}
+\usepackage{eurosym}
+\DeclareUnicodeCharacter{20AC}{\euro}
+\usepackage{enumitem}
+\usepackage{fancyhdr}% pacchetto per l'intestazione
+\renewcommand{\headrulewidth}{0pt}%comando che impedisce la linea tra 
+                                %intestazione e testo
+\renewcommand{\baselinestretch}{1.5}                         
+\cfoot{\thepage}%comando che impone di inserire il numero di pagine,
+                %al piede, e centrato
+\usepackage{color}%Pacchetto per colorare i links
+\usepackage{hyperref}% pacchetto per rendere l'indice navigabile
+\hypersetup{
+    colorlinks=true,
+    linktoc=all, 
+    citecolor=blue,
+    filecolor=blue,
+    linkcolor=blue,
+    urlcolor=blue
+}
+\usepackage{etoolbox}
+\AtBeginEnvironment{quote}{\singlespacing\small}
+\usepackage{paralist}
+\usepackage[a-1b]{pdfx}
+\newcommand{\trib}{Tribunale di Roma}
+\newcommand{\sez}{Sezione Civile}
+\newcommand{\ric}{Marco Tullio Cicerone}\label{ricorrente}
+\newcommand{\res}{Lucio Sestio Padovano}\label{resistente}
+
+\begin{document}
+\author{Avv. Nome Cognome}
+\title{Ricorso per decreto ingiuntivo}
+\date{\today}
+%Carta intestata
+	\vspace*{-1cm}\vbox to0pt{
+		\vss\vbox{\centering{ 
+			\textbf{Avv. Nome Cognome}\\
+			    Via Strada n. 216 | 00192, Roma\\
+				tel. 06000000 - | fax 0600000000\\
+				}	
+			}
+		\vspace{.1cm}}
+\begin{center}
+\textbf{\textbf{\trib\\
+\sez\\
+Ricorso per decreto ingiuntivo}}
+\end{center}
+\tableofcontents
+\begin{center}
+*********
+\end{center}
+Per il Sig \ric ,  C.F. codice fiscale nato a Roma il 01/01/1901, ivi residente alla Via dei Castani n. 23, elettivamente domiciliato/a in Roma, Via Strada n. 216, nello studio dell'Avv. Nome Cognome, PEC nomecognome@ordineavvocatiroma.org , C.F. XXXXXXXXXXX,  FAX 0600000000, che lo rappresenta per procura ai sensi dell'art. 83 comma terzo c.p.c.,\\
+Contro il Sig \res , in persona del legale rapp.te pro tempore, C.F.XXXXXXXXXX, con sede in <sede> alla <indirizzo sede>, PEC <posta elettronica certificata>.
+\begin{center}
+*********
+\end{center}
+\section{Premesso}\label{premesso} 
+\paragraph{}
+Lorem x ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud \res\ exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit (v. doc. all. \ref{doc1})esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+\subparagraph{1}
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+\subparagraph{2}
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+\begin{compactenum}
+   \item Primo punto elenco
+   \item Secondo punto elenco
+   \item ...
+\end{compactenum}
+\section{Conclusioni}\label{conclusioni} 
+Tanto premesso la/il ricorrente, come in epigrafe rapp.to/a e difeso/a
+\begin{center}
+Chiede
+\end{center}
+che l'intestato Tribunale, voglia ingiungere <nome controparte>, <CF. controparte>, residente in <Roma alla Via -- n. --, scala --, di pagare alla ricorrente la somma di                    € 0000,00 (---/00) oltre gli interessi ai sensi dell'art. 1284 c.c. penultimo comma, dalla domanda giudiziale al saldo. Con vittoria di spese e compenso del presente procedimento calcolato ai sensi del DM 55/2014, oltre rimborso spese generali ed oneri fiscali e contributivi come per legge.
+\section{Si depositano}\label{documenti} 
+\begin{compactenum}
+\item \href[pdfnewwindow]{./01.pdf}{Primo documento}\label{doc1} 
+\item \href[pdfnewwindow]{./02.pdf}{Secondo documento}
+\item \href[pdfnewwindow]{./03.pdf}{Terzo documento}
+\item \href[pdfnewwindow]{./04.pdf}{Quarto documento}
+\item \href[pdfnewwindow]{./05.pdf}{Quinto documento}
+\end{compactenum}
+\section{Dichiarazione di valore}\label{dichiarazione di valore}
+Si dichiara ai sensi dell'art.9 n. 5 della L.488/'99 e successive modificazioni, che il valore del procedimento, determinato ai sensi degli artt. 10 ss. c.p.c. e' di € 00000,00 = Contributo Unificato                 \euro 00000,00 .\\
+Roma, \makeatletter
+\@date
+\begin{flushright}
+\makeatletter
+\@author
+\end{flushright}
+
+\end{document}
