@@ -1,0 +1,90 @@
+\documentclass [12pt]{article}
+\usepackage[italian]{babel}
+\usepackage{lmodern}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{ragged2e}
+\usepackage[a4paper, left=2.8cm, right=5.3cm, top=3.4cm, bottom=2.4cm]{geometry}
+\usepackage{eurosym}
+\DeclareUnicodeCharacter{20AC}{\euro}
+\usepackage{enumitem}
+\usepackage{fancyhdr}% pacchetto per l'intestazione
+\renewcommand{\headrulewidth}{0pt}%comando che impedisce la linea tra 
+                                %intestazione e testo
+\renewcommand{\baselinestretch}{1.5}                         
+\cfoot{\thepage}%comando che impone di inserire il numero di pagine,
+                %al piede, e centrato
+\usepackage{color}%Pacchetto per colorare i links
+\usepackage{hyperref}% pacchetto per rendere l'indice navigabile
+\hypersetup{
+    colorlinks=true,
+    linktoc=all, 
+    citecolor=blue,
+    filecolor=blue,
+    linkcolor=blue,
+    urlcolor=blue
+}
+\usepackage{etoolbox}
+\AtBeginEnvironment{quote}{\singlespacing\small}
+\usepackage{paralist}
+\usepackage[a-1b]{pdfx}
+\newcommand{\trib}{Tribunale di Roma}
+\newcommand{\sez}{Sezione Civile}
+\newcommand{\ric}{Marco Tullio Cicerone}\label{ricorrente}
+\newcommand{\res}{Lucio Sestio Padovano}\label{resistente}
+
+\begin{document}
+\author{Avv. Xxxxx Yyyyyyy}
+\title{Istanza ex art. 492 bis c.p.c.}
+\date{\today}
+%Carta intestata
+	\vspace*{-1cm}\vbox to0pt{
+		\vss\vbox{\centering{ 
+			\textbf{Avv. Xxxxx Yyyyyyy}\\
+			    Piazza del Rrrrrrrrr n. 4 | 00100, Roma\\
+				tel. 0600000000 - | fax 0600000000\\
+				}	
+			}
+		\vspace{.1cm}}
+\begin{center}
+\textbf{\textbf{\trib\\
+\sez\\
+Istanza ex art. 492 bis c.p.c.}}
+\end{center}
+\tableofcontents
+\begin{center}
+*********
+\end{center}
+Per il Sig \ric ,  C.F. codice fiscale nato a Roma il 01/01/1901, ivi residente alla Via dei Castani n. 23, elettivamente domiciliato/a in Roma, Piazza Piazza del Rrrrrrrrr n. 4, nello studio dell'Avv. Xxxxx Yyyyyyy, PEC xxxxxxxxxx@ordineavvocatiroma.org , C.F. cfcfcfcfcfcfcfc,  FAX 0600000000, che lo rappresenta per procura ai sensi dell'art. 83 comma terzo c.p.c.,\\
+Contro il Sig \res , in persona del legale rapp.te pro tempore, C.F.XXXXXXXXXX, con sede in <sede> alla <indirizzo sede>, PEC <posta elettronica certificata>.
+\begin{center}
+*********
+\end{center}
+\section{Premesso}\label{premesso} 
+\paragraph{}
+Il Tribunale di Roma con sentenza/decreto n. 6694/19 in data 00.00.2020, munito di formula esecutiva il 00.00.00, ha ingiunto/condannato \res P.IVA =======, a pagare all’istante la somma di € 00.000,00 oltre a imposte, accessori e spese generali come per legge;
+in data 00.00.20==  veniva notificato l’atto di precetto per complessivi € 00.000,00 oltre agli interessi e alle spese successive fino al saldo e la/il debitrice/ore nulla ha pagato.
+\\
+dunque è interesse dell’odierno creditore procedere direttamente alle ricerche con modalità telematiche ex art. 492 bis c.p.c. stante la nota impossibilità tecnica dell’Ufficiale Giudiziario;\\
+\section{Conclusioni}\label{conclusioni} 
+Tanto premesso la/il ricorrente, come in epigrafe rapp.to/a e difeso/a
+\begin{center}
+\textbf{Chiede}
+\end{center}
+All’Ecc.mo Presidente del Tribunale adito, di essere autorizzato ai sensi del combinato disposto ex artt. 492 bis c.p.c e 155 quinquies disp. att. c.p.c., ad accedere alle banche dati delle Pubbliche Amministrazioni o alle quali le stesse possono accedere, all’anagrafe tributaria compreso l’archivio dei rapporti finanziari e in quelle degli enti previdenziali, per l’acquisizione di tutte le informazioni rilevanti per l’individuazione di cose e crediti da sottoporre ad esecuzione, comprese quelle relative ai rapporti intrattenuti dal debitore con istituti di credito e datori di lavoro o committenti.\\ 
+\textbf{In particolare si chiede di poter accedere, per assumere le informazioni sopra descritte, alle banche dati in possesso o comunque consultabili dall’INPS e dall’Agenzia delle Entrate.}
+\section{Si depositano}\label{documenti} 
+\begin{compactenum}
+\item \href[pdfnewwindow]{./01.pdf}{Provvedimento}\label{doc1} 
+\item \href[pdfnewwindow]{./02.pdf}{Atto di precetto}\label{doc2}
+\end{compactenum}
+\section{Contributo unificato}\label{contributo unificato}
+Si dichiara che trattasi di istanza di autorizzazione alla ricerca con modalita' telematiche dei beni da pignorare (art. 492-bis c.p.c.), contributo unificato in misura fissa pari ad € 43,00\\
+Roma, \makeatletter
+\@date
+\begin{flushright}
+\makeatletter
+\@author
+\end{flushright}
+
+\end{document}
