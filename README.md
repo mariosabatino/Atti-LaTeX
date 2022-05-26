@@ -1,15 +1,12 @@
 # Atti-LaTeX
 Modelli di atti giudiziari in LaTeX
 
-**Modello di ricorso per decreto ingiuntivo**
+Questi sono modelli di:
+1. **ricorso per decreto ingiuntivo**
+2. **istabza ex art. 492 bis c.p.c**.
 
-Questo modello di ricorso per decreto ingiuntivo è scritto in LaTeX. Per utilizzarlo senza problemi si consiglia di caricarlo
-in Overleaf dove è stato da me testato. Il modello prevede la creazione di un sommario e di link ipertestuali ai documenti depositati.
-
-Overleaf è un servizio che consente di usare LaTeX con un browser e senza dover installare nulla.
-
-Per registrarvi ed accedere alla versione gratuita del servizio [Cliccate Qui](https://www.overleaf.com?r=42aa10db&rm=d&rs=b "Overleaf")
-
-In seguito caricherò altri modelli. 
+I modelli sono scritti in LaTeX. Per utilizzarli senza problemi si consiglia di caricarli
+in Overleaf dove sono stati da me testati. I modelli prevedono la creazione di un sommario e di link ipertestuali ai documenti depositati.
+In alternativa ad Overleaf è possibile usare anche TeXmaker con MikTeX. 
 
 Per informazioni scrivetemi a mario@sabatino.pro
